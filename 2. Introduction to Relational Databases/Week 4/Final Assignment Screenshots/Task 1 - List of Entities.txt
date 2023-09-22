@@ -1,0 +1,7 @@
+List of Entities:
+
+staff
+sales_outlet
+sales_transaction
+customer
+product
