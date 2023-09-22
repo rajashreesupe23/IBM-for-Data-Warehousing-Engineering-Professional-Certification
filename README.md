@@ -2,7 +2,6 @@
 
 ## About Professional Certification
 The IBM Data Warehouse Engineer Professional Certificate is a prestigious and comprehensive program designed to equip data professionals with the advanced skills and knowledge required to excel in the field of data warehousing. This certification program covers a wide range of topics critical to data engineering, including:  
-
 📊 Data Warehousing Fundamentals: Gain a deep understanding of data warehousing concepts, architecture, and best practices.  
 🔗 Data Modeling: Master the art of designing effective data models for optimized data storage and retrieval.  
 🛠 ETL (Extract, Transform, Load) Processes: Learn the intricacies of ETL to efficiently move and transform data.  
