@@ -1,0 +1,148 @@
+Informational Commands -->
+
+whoami - to return your username
+uname - to print the kernel name
+id - to display the user and group id
+df - to print available disk space
+ps - to list running processes and their process id
+top - to view a real-time table of processes
+echo - to print given text
+date - to display the current time and date
+man - to get the user manual for a command
+
+Navigating and Managing Files and Directories -->
+
+pwd - to get the location of your present working directory
+mkdir - to create a new directory
+cd - to change your present working directory
+touch - to create a new file
+find - to search for and locate files
+rm - to remove a file
+mv - to rename or move a file
+cp - to copy a file
+
+ls - to list the files and directories within a directory
+
+Options -->
+-a	list all files, including hidden files
+-d	list directories only, do not include files
+-h	with -l and -s, print sizes like 1K, 234M, 2G
+-l	include attributes like permissions, owner, size, and last-modified date
+-S	sort by file size, largest first
+-t	sort by last-modified date, newest first
+-r	reverse the sort order
+
+
+Access Control Commands -->
+
+1. Viewing and modifying file access permissions -->
+
+1.1 View file access permissions
+
+The following permissions are set for each file and directory:
+
+Permission	Symbol
+read	          r
+write	          w
+execute	          x
+
+1.2 Change file access permissions
+
+Specify which permissions to change with a combination of the following characters:
+
+Option	 Description
+r, w, x	 Permissions: read, write, and execute
+u,g, o 	 User categories: user, group, and all others
++, -	 Operations: grant and revoke
+
+
+2. Understanding directory access permissions -->
+
+2.1 View default directory access permissions
+
+Recall the following table, which illustrates the meanings of each permission for directories with examples of allowable operations for a given directory.
+
+Directory Permission	      Permissible action(s)
+         r	       list directory  contents using ls command
+         w	       add/remove files or directories from directory
+         x	       enter directory using cd command
+
+
+Wrangling Text Files at the Command Line -->
+
+cat, more, less - To view file contents
+head -  to display the first N lines of a file
+tail - to display the last N lines of a file
+sort - to sort and display lines of file alphanumerically
+uniq - to drop consecutive duplicated lines and display result
+cut - to extract fields from lines of text
+paste - to merge text files line-by-line, aligned as columns
+
+grep - to extract lines matching a specified criterion
+
+options -->
+
+Some frequently used options for grep include:
+
+Option	Description
+-n	Along with the matching lines, also print the line numbers
+-c	Get the count of matching lines
+-i	Ignore the case of the text while matching
+-v	Print all lines which do not contain the pattern
+-w	Match only if the pattern matches whole words
+
+wc - to count lines, words, or characters from a text file
+
+options -->
+-l	To get just a count of lines
+-w	To get count of words
+-c	To print no of characters
+
+
+Working with Networking Commands -->
+
+hostname - to display your system's hostname and IP address
+ifconfig - to display network interface configuration
+ping - to test connectivity to a host
+curl - to transfer data from a server
+wget - to download file(s) from a URL
+
+
+Archiving and Compressing Files -->
+
+tar - to create and manage file archives
+
+The options used are as follows:
+Option	Description
+-c	Create new archive file
+-v	Verbosely list files processed
+-f	Archive file name 	
+
+zip - to package and compress archive files
+
+Option	Description
+-r      used to zip an entire directory.
+
+unzip - to extract, list, or test compressed files in a ZIP archive
+Option	Description
+-o      to force overwrite in case you run the command more than once.
+-l      to list the files of the archive
+
+Summary -->
+
+Files and directories can have read, write, and execute permissions for the user, group, and others
+You can view the permissions for all files and directories within a directory by using ls -l
+You can modify permissions for a file by using chmod
+Changing permissions on a directory will change who can do what to the directory and its files
+View file contents with cat, more, and less
+See the first and last N lines of a file using head and tail
+Find the number of lines, words, and characters in a file with wc
+Sort lines and drop duplicates using sort and uniq
+Extract lines and fields from a file with grep and cut
+Merge text files using paste
+View your network configuration using the hostname and ifconfig commands
+Test a network connection using the ping command
+Transfer data using the curl and wget commands
+tar allows you to pack multiple files and directories into a single archive file
+zip allows you to compress files
+unzip allows you to extract files

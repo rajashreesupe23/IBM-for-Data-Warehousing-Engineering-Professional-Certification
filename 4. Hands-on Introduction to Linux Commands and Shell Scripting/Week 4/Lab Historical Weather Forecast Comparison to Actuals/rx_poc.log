@@ -1,0 +1,4 @@
+# echo -e "year\tmonth\tday\thour\tobs_tmp\tfc_temp">rx_poc.log
+
+header=$(echo -e "year\tmonth\tday\tobs_tmp\tfc_temp")
+echo $header>rx_poc.log
