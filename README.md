@@ -1,5 +1,10 @@
 # IBM-for-Data-Warehousing-Engineering-Professional-Certification
 
+## My Certificate
+![image](https://github.com/rajashreesupe23/IBM-for-Data-Warehousing-Engineering-Professional-Certification/assets/62475756/3eef231f-6842-4c97-b1cc-8a442cb4bf32)
+
+**Certificate Link: https://www.coursera.org/account/accomplishments/professional-cert/2755UMLAVSQD**
+
 ## About Professional Certification
 The IBM Data Warehouse Engineer Professional Certificate is a prestigious and comprehensive program designed to equip data professionals with the advanced skills and knowledge required to excel in the field of data warehousing. This certification program covers a wide range of topics critical to data engineering, including:  
 
@@ -100,6 +105,3 @@ These courses provided with a deep and practical understanding of **data warehou
 
 ## Reference
 https://www.coursera.org/professional-certificates/data-warehouse-engineering
-
-## My Certificate Link
-https://www.coursera.org/account/accomplishments/professional-cert/2755UMLAVSQD
